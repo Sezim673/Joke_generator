@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #ffe8f6;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+.container {
+  background: #fff;
+  padding: 80px;
+  border-radius: 30px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+}
+
+button {
+  margin: 10px;
+  padding: 25px 30px;
+  border: none;
+  background:#ffb5d9 ;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover {
+  background: #ff94ca;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.fade.visible {
+  opacity: 1;
+}
+.author {
+  font-size: 14px;
+  color: #777;
+}
